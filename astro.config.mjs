@@ -128,19 +128,67 @@ export default defineConfig({
             },
             {
               label: "Visual Design 2",
-              items: [],
+              items: [
+                { label: "Storytelling", slug: "vd2/storytelling" },
+                { label: "Typography", slug: "vd2/typography" },
+                { label: "UI Design", slug: "vd2/ui-design" },
+                {
+                  label: "Graphic Design History",
+                  items: [
+                    { label: "Art Nouveau", slug: "vd2/history/art-nouveau" },
+                    {
+                      label: "European Poster Design",
+                      slug: "vd2/history/european-poster-design",
+                    },
+                    {
+                      label: "Constructivism & De Stijl",
+                      slug: "vd2/history/constructivism-de-stijl",
+                    },
+                    { label: "Bauhaus", slug: "vd2/history/bauhaus" },
+                    {
+                      label: "Die Neue Typographie",
+                      slug: "vd2/history/neue-typographie",
+                    },
+                    { label: "Swiss Style", slug: "vd2/history/swiss-style" },
+                    {
+                      label: "The New York School",
+                      slug: "vd2/history/newyork-school",
+                    },
+                    {
+                      label: "Postmodern Design",
+                      slug: "vd2/history/postmodern-design",
+                    },
+                    {
+                      label: "The Digital Revolution",
+                      slug: "vd2/history/digital-revolution",
+                    },
+                  ],
+                },
+              ],
             },
             {
               label: "Web 2",
               items: [
-                { label: "Server Side Development", slug: "web2/server-side-development" },
+                {
+                  label: "Server Side Development",
+                  slug: "web2/server-side-development",
+                },
                 { label: "Super Globals", slug: "web2/super-globals" },
                 { label: "Databases", slug: "web2/databases" },
                 { label: "Deployment", slug: "web2/deployment" },
                 { label: "Model View Controller (MVC)", slug: "web2/mvc" },
-                { label: "Create Read Update Delete (CRUD)", slug: "web2/crud" },
-                { label: "Progressive Enhancement", slug: "web2/progressive-enhancement" },
-                { label: "Progressive Enhancement (forms)", slug: "web2/progressive-enhancement-forms" },
+                {
+                  label: "Create Read Update Delete (CRUD)",
+                  slug: "web2/crud",
+                },
+                {
+                  label: "Progressive Enhancement",
+                  slug: "web2/progressive-enhancement",
+                },
+                {
+                  label: "Progressive Enhancement (forms)",
+                  slug: "web2/progressive-enhancement-forms",
+                },
               ],
             },
             {
