@@ -235,6 +235,17 @@ export default defineConfig({
                 },
               ],
             },
+            { label: "Visual Design 3", items: [] },
+            { label: "Motion Design 1", items: [] },
+            { label: "Web 3", items: [] },
+            {
+              label: "Creative Code 3",
+              items: [
+                { label: "ML5", slug: "cc3/ml5" },
+                { label: "GSAP Animations", slug: "cc3/gsap-animations" },
+                { label: "GSAP Scrolltrigger", slug: "cc3/gsap-scrolltrigger" },
+              ],
+            },
           ],
         },
         {
