@@ -245,6 +245,10 @@ export default defineConfig({
                   label: "Interviews",
                   slug: "xd3/interview",
                 },
+                {
+                  label: "Cultural Probe",
+                  slug: "xd3/cultural-probe",
+                },
               ],
             },
             {
