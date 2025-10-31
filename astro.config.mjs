@@ -233,11 +233,124 @@ export default defineConfig({
                   label: "User Group Definition",
                   slug: "xd3/user-group-definition",
                 },
+                {
+                  label: "Secondary Research",
+                  slug: "xd3/secondary-research",
+                },
+                {
+                  label: "Surveys",
+                  slug: "xd3/survey",
+                },
+                {
+                  label: "Interviews",
+                  slug: "xd3/interview",
+                },
               ],
             },
-            { label: "Visual Design 3", items: [] },
-            { label: "Motion Design 1", items: [] },
-            { label: "Web 3", items: [] },
+            {
+              label: "Visual Design 3",
+              items: [
+                { label: "Brand Theory", slug: "vd3/brand-theory" },
+                { label: "Hook", slug: "vd3/hook" },
+                { label: "Brand Presence", slug: "vd3/brand-presence" },
+              ],
+            },
+            {
+              label: "Motion Design 1",
+              items: [
+                {
+                  label: "Workflow & Interface",
+                  slug: "motion1/workflow-interface",
+                },
+                {
+                  label: "Keyframes & Easing",
+                  slug: "motion1/keyframes-easing",
+                },
+                {
+                  label: "Shape Layers",
+                  slug: "motion1/shape-layers",
+                },
+                {
+                  label: "Transparency",
+                  slug: "motion1/transparency",
+                },
+                {
+                  label: "Typography",
+                  slug: "motion1/typography",
+                },
+                {
+                  label: "Expressions",
+                  slug: "motion1/expressions",
+                },
+              ],
+            },
+            {
+              label: "Web 3",
+              items: [
+                {
+                  label: "Homework Week 1",
+                  items: [
+                    {
+                      label: "Logical Properties",
+                      slug: "web3/logical-properties",
+                    },
+                  ],
+                },
+                { label: "Responsive", slug: "web3/responsive" },
+                {
+                  label: "Responsive to the User",
+                  slug: "web3/responsive-user",
+                },
+                {
+                  label: "Homework Week 2",
+                  items: [
+                    {
+                      label: "Terminal",
+                      slug: "web3/terminal",
+                    },
+                  ],
+                },
+                { label: "Git", slug: "web3/git" },
+                { label: "Git Branches", slug: "web3/git-branches" },
+                {
+                  label: "Homework Week 3",
+                  items: [
+                    {
+                      label: "Packages",
+                      slug: "web3/packages",
+                    },
+                    {
+                      label: "Npm",
+                      slug: "web3/npm",
+                    },
+                    {
+                      label: "Packages in Practice",
+                      slug: "web3/packages-practice",
+                    },
+                    {
+                      label: "Advantages of Npm",
+                      slug: "web3/advantages-npm",
+                    },
+                    {
+                      label: "Npx",
+                      slug: "web3/npx",
+                    },
+                  ],
+                },
+                { label: "Vite", slug: "web3/vite" },
+                {
+                  label: "Collaboration with GitHub",
+                  slug: "web3/collaboration-git",
+                },
+                {
+                  label: "Homework Week 4",
+                  items: [
+                    { label: "Pull", slug: "web3/pull" },
+                    { label: "GitHub Flow", slug: "web3/github-flow" },
+                  ],
+                },
+              ],
+            },
             {
               label: "Creative Code 3",
               items: [
@@ -247,10 +360,6 @@ export default defineConfig({
               ],
             },
           ],
-        },
-        {
-          label: "Semester 4",
-          items: [],
         },
       ],
     }),
