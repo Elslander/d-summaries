@@ -21,6 +21,7 @@ export default defineConfig({
       sidebar: [
         {
           label: "Semester 1",
+          collapsed: true,
           items: [
             {
               label: "Experience Design 1",
@@ -88,6 +89,7 @@ export default defineConfig({
         },
         {
           label: "Semester 2",
+          collapsed: true,
           items: [
             {
               label: "Experience Design 2",
