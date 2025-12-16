@@ -5,7 +5,8 @@ import catppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://elslander.github.io',
+  site: "https://elslander.github.io/devine-summaries",
+  base: "/devine-summaries",
   integrations: [
     starlight({
       title: "D-Summaries",
